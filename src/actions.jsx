@@ -1,0 +1,7 @@
+export const addTodo = text => ({ type: "ADD_TODO", text })
+export const deleteTodo = id => ({ type: "DELETE_TODO", id })
+export const editTodo = id => ({ type: "EDIT_TODO", id })
+export const updateTodo = (text, id) => ({ type: "UPDATE_TODO", text, id })
+export const changeStatusTodo = (status, id) => ({type: "CHANGE_STATUS_TODO", status, id})
+export const changeFilter = filter => ({type: "CHANGE_FILTER", filter})
+export const changeSort = attribute =>({type: "CHANGE_SORT", attribute})

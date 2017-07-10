@@ -1,0 +1,103 @@
+/* App Styles */
+.app-wrapper {
+    text-align: center;
+}
+
+/* Icon Styles */
+.icon-inline {
+    margin: 0px 2px;
+}
+.icon-inline:hover {
+    cursor: pointer;
+}
+.icon-complete {
+    color: green;
+}
+.icon-fail {
+    color: red;
+}
+.icon-edit {
+    color: blue;
+}
+.icon-delete {
+    color: black;
+}
+
+/* To Do Item Styles */
+.todo-list {
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.todo-item>td {
+    padding: 4px 8px;
+}
+.todo-status,
+.todo-tools {
+    text-align: center;
+}
+
+/* New To Do Styles */
+.todo-save {
+    padding: 6px 12px;
+    color: #fff;
+    background-color: #337ab7;
+    border: 1px solid #2e6da4;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 14px;
+}
+.todo-field {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 14px;
+}
+
+/* Status Styles */
+.filter-tag.no-status {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.filter-tag.active {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.filter-tag.completed {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+.todo-item.completed {
+    background-color: #5cb85c;
+    color: #fff;
+}
+.filter-tag.failed {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.todo-item.failed {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+/* Filter Styles */
+.filter-set {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.filter-tag {
+    padding: 6px 12px;
+    margin: 0px 5px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    font-size: 14px;
+}
+.filter-tag:hover {
+    cursor: pointer;
+}
